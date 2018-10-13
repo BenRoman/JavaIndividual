@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ba789c1-6172-40c6-89f2-639beff98a77" name="Default Changelist" comment="" />
+    <list default="true" id="0ba789c1-6172-40c6-89f2-639beff98a77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +20,7 @@
     <session id="2029463593">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.40" value="1" />
@@ -39,13 +43,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2429" />
+          <entry key="java" value="2465" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2429" />
+          <entry key="JAVA" value="2465" />
         </counts>
       </usages-collector>
     </session>
@@ -55,14 +59,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="93" column="82" selection-start-line="93" selection-start-column="82" selection-end-line="93" selection-end-column="82" />
+            <state relative-caret-position="274">
+              <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="n#!!doc;n#Name#0;n#Person#0" />
                 <element signature="n#!!doc;n#getName#0;n#Person#0" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
                 <element signature="e#494#495#0" expanded="true" />
                 <element signature="e#521#522#0" expanded="true" />
                 <element signature="e#553#554#0" expanded="true" />
@@ -85,18 +87,16 @@
                 <element signature="e#1087#1088#0" expanded="true" />
                 <element signature="e#1129#1130#0" expanded="true" />
                 <element signature="e#1158#1159#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1579#1580#0" expanded="true" />
                 <element signature="method#Person#0;class#Person#0" />
                 <element signature="class#1692:1971" />
                 <element signature="class#2034:2312" />
+                <element signature="class#2379:2660" />
                 <element signature="e#1729#1737#0" expanded="true" />
                 <element signature="e#1810#1818#0" expanded="true" />
                 <element signature="e#1829#1846#0" expanded="true" />
                 <element signature="method#Read#0;class#Main#0" />
                 <element signature="method#Separate#0;class#Main#0" />
                 <element signature="method#&lt;unnamed&gt;#0;class#Main#0" />
-                <element signature="method#Validator#0;class#Main#0" />
               </folding>
             </state>
           </provider>
@@ -110,6 +110,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -125,6 +128,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -154,7 +158,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539447351863" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539448177054" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -201,9 +205,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0098335855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22012103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -213,7 +216,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6800303" weight="0.21276596" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.18821605" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.18821605" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -235,20 +238,32 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>23</line>
+          <properties class="Person" method="getName">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/firstTask.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="93" column="82" selection-start-line="93" selection-start-column="82" selection-end-line="93" selection-end-column="82" />
+        <state relative-caret-position="274">
+          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="n#!!doc;n#Name#0;n#Person#0" />
             <element signature="n#!!doc;n#getName#0;n#Person#0" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
             <element signature="e#494#495#0" expanded="true" />
             <element signature="e#521#522#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
@@ -271,18 +286,16 @@
             <element signature="e#1087#1088#0" expanded="true" />
             <element signature="e#1129#1130#0" expanded="true" />
             <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1579#1580#0" expanded="true" />
             <element signature="method#Person#0;class#Person#0" />
             <element signature="class#1692:1971" />
             <element signature="class#2034:2312" />
+            <element signature="class#2379:2660" />
             <element signature="e#1729#1737#0" expanded="true" />
             <element signature="e#1810#1818#0" expanded="true" />
             <element signature="e#1829#1846#0" expanded="true" />
             <element signature="method#Read#0;class#Main#0" />
             <element signature="method#Separate#0;class#Main#0" />
             <element signature="method#&lt;unnamed&gt;#0;class#Main#0" />
-            <element signature="method#Validator#0;class#Main#0" />
           </folding>
         </state>
       </provider>

@@ -12,7 +12,6 @@ class Person {
 
     // region fields
     private String Name;
-
     private String Email;
     private String Login;
     private String Pass;
@@ -21,6 +20,7 @@ class Person {
 
     //endregion
     //region Get Set
+
     public String getName() {
         return Name;
     }
@@ -88,7 +88,6 @@ class Person {
             if(o1.getName().equals(o2.getName()))
                 return o1.getLogin().compareTo(o2.getLogin());
             return o1.getName().compareTo(o2.getName());
-
         }
     } ;
     public static Comparator<? super Person> LoginPass = new Comparator<Person>() {
@@ -97,7 +96,6 @@ class Person {
             if(!o1.getLogin().equals(o2.getLogin()))
                 return o1.getLogin().compareTo(o2.getLogin());
             return o1.getPass().compareTo(o2.getPass());
-
         }
     } ;
     public static Comparator<? super Person> BirthName = new Comparator<Person>() {
@@ -106,7 +104,6 @@ class Person {
             if(o1.getBirth().equals(o2.getBirth()))
                 return o1.getName().compareTo(o2.getName());
             return o1.getBirth().compareTo(o2.getBirth());
-
         }
     } ;
 }
@@ -155,12 +152,10 @@ public class Main {
         System.out.println(ANSI_RED +"Valid : ("+ValidatedPersons.size()+")" + ANSI_RESET);
         for (Person itm : ValidatedPersons)
             System.out.println(itm);
-
         System.out.println(ANSI_RED +"Invalid : ("+ InvalidatedPersons.size()+")" + ANSI_RESET);
         for (Map.Entry<Person, String> entry : InvalidatedPersons.entrySet()) {
             Person key = entry.getKey();
             String value = entry.getValue();
-
             System.out.println ("Key: " + key +"\n" +  "Value: " + value +"\n") ;
         }
     }
@@ -170,12 +165,10 @@ public class Main {
         Matcher matcher = VALID_EMAIL_ADDRESS_REGEX .matcher(test.getEmail());
         if(!matcher.find())
             reasons+="email ";
-
         Pattern VALID_LOGIN_REGEX = Pattern.compile("^[a-z0-9]+$");
         matcher = VALID_LOGIN_REGEX .matcher(test.getLogin());
         if(!matcher.find())
             reasons+= "login ";
-
         Pattern VALID_PASS_REGEX = Pattern.compile("[A-Z0-9_.%+?!-]{10,}", Pattern.CASE_INSENSITIVE);
         matcher = VALID_PASS_REGEX .matcher(test.getPass());
         if(!matcher.find())
